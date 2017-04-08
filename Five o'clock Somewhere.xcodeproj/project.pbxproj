@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2CA527E61E993876009D720F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA527E51E993876009D720F /* AppDelegate.swift */; };
-		2CA527E81E993876009D720F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA527E71E993876009D720F /* ViewController.swift */; };
-		2CA527EB1E993876009D720F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CA527E91E993876009D720F /* Main.storyboard */; };
-		2CA527ED1E993876009D720F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CA527EC1E993876009D720F /* Assets.xcassets */; };
-		2CA527F01E993876009D720F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CA527EE1E993876009D720F /* LaunchScreen.storyboard */; };
 		2CA527FB1E993876009D720F /* Five_o_clock_SomewhereTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA527FA1E993876009D720F /* Five_o_clock_SomewhereTests.swift */; };
 		2CA528061E993876009D720F /* Five_o_clock_SomewhereUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA528051E993876009D720F /* Five_o_clock_SomewhereUITests.swift */; };
+		2CA528191E994150009D720F /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA528181E994150009D720F /* Coordinator.swift */; };
+		2CA5281B1E9941B5009D720F /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA5281A1E9941B5009D720F /* RootViewController.swift */; };
+		2CA5281D1E9941C1009D720F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA5281C1E9941C1009D720F /* AppDelegate.swift */; };
+		2CA528261E9941DB009D720F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CA5281F1E9941DB009D720F /* Assets.xcassets */; };
+		2CA5282C1E99437F009D720F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CA5282B1E99437F009D720F /* UIKit.framework */; };
+		2CA5282E1E9943F7009D720F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CA528211E9941DB009D720F /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,18 +36,19 @@
 
 /* Begin PBXFileReference section */
 		2CA527E21E993876009D720F /* Five o'clock Somewhere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Five o'clock Somewhere.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2CA527E51E993876009D720F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2CA527E71E993876009D720F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2CA527EA1E993876009D720F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2CA527EC1E993876009D720F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2CA527EF1E993876009D720F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2CA527F11E993876009D720F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CA527F61E993876009D720F /* Five o'clock SomewhereTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Five o'clock SomewhereTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CA527FA1E993876009D720F /* Five_o_clock_SomewhereTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Five_o_clock_SomewhereTests.swift; sourceTree = "<group>"; };
 		2CA527FC1E993876009D720F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CA528011E993876009D720F /* Five o'clock SomewhereUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Five o'clock SomewhereUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CA528051E993876009D720F /* Five_o_clock_SomewhereUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Five_o_clock_SomewhereUITests.swift; sourceTree = "<group>"; };
 		2CA528071E993876009D720F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CA528181E994150009D720F /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Coordinator.swift; path = Application/Business/Coordinator.swift; sourceTree = "<group>"; };
+		2CA5281A1E9941B5009D720F /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RootViewController.swift; path = Application/ViewControllers/RootViewController.swift; sourceTree = "<group>"; };
+		2CA5281C1E9941C1009D720F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Application/AppDelegate.swift; sourceTree = "<group>"; };
+		2CA5281F1E9941DB009D720F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Application/Resources/Assets.xcassets; sourceTree = "<group>"; };
+		2CA528221E9941DB009D720F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2CA528251E9941DB009D720F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Application/Resources/Info.plist; sourceTree = "<group>"; };
+		2CA5282B1E99437F009D720F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CA5282C1E99437F009D720F /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 				2CA527F91E993876009D720F /* Five o'clock SomewhereTests */,
 				2CA528041E993876009D720F /* Five o'clock SomewhereUITests */,
 				2CA527E31E993876009D720F /* Products */,
+				2CA5282A1E99437F009D720F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +101,7 @@
 		2CA527E41E993876009D720F /* Five o'clock Somewhere */ = {
 			isa = PBXGroup;
 			children = (
-				2CA527E51E993876009D720F /* AppDelegate.swift */,
-				2CA527E71E993876009D720F /* ViewController.swift */,
-				2CA527E91E993876009D720F /* Main.storyboard */,
-				2CA527EC1E993876009D720F /* Assets.xcassets */,
-				2CA527EE1E993876009D720F /* LaunchScreen.storyboard */,
-				2CA527F11E993876009D720F /* Info.plist */,
+				2CA528131E9938F3009D720F /* Application */,
 			);
 			path = "Five o'clock Somewhere";
 			sourceTree = "<group>";
@@ -123,6 +122,60 @@
 				2CA528071E993876009D720F /* Info.plist */,
 			);
 			path = "Five o'clock SomewhereUITests";
+			sourceTree = "<group>";
+		};
+		2CA528131E9938F3009D720F /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				2CA5281C1E9941C1009D720F /* AppDelegate.swift */,
+				2CA528141E993904009D720F /* Business */,
+				2CA5281E1E9941CC009D720F /* Resources */,
+				2CA528151E993921009D720F /* ViewControllers */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		2CA528141E993904009D720F /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				2CA528181E994150009D720F /* Coordinator.swift */,
+			);
+			name = Business;
+			sourceTree = "<group>";
+		};
+		2CA528151E993921009D720F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2CA5281A1E9941B5009D720F /* RootViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2CA5281E1E9941CC009D720F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2CA5281F1E9941DB009D720F /* Assets.xcassets */,
+				2CA528201E9941DB009D720F /* Base.lproj */,
+				2CA528251E9941DB009D720F /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2CA528201E9941DB009D720F /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				2CA528211E9941DB009D720F /* LaunchScreen.storyboard */,
+			);
+			name = Base.lproj;
+			path = Application/Resources/Base.lproj;
+			sourceTree = "<group>";
+		};
+		2CA5282A1E99437F009D720F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CA5282B1E99437F009D720F /* UIKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +288,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CA527F01E993876009D720F /* LaunchScreen.storyboard in Resources */,
-				2CA527ED1E993876009D720F /* Assets.xcassets in Resources */,
-				2CA527EB1E993876009D720F /* Main.storyboard in Resources */,
+				2CA5282E1E9943F7009D720F /* LaunchScreen.storyboard in Resources */,
+				2CA528261E9941DB009D720F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,8 +314,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CA527E81E993876009D720F /* ViewController.swift in Sources */,
-				2CA527E61E993876009D720F /* AppDelegate.swift in Sources */,
+				2CA5281D1E9941C1009D720F /* AppDelegate.swift in Sources */,
+				2CA528191E994150009D720F /* Coordinator.swift in Sources */,
+				2CA5281B1E9941B5009D720F /* RootViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,18 +352,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2CA527E91E993876009D720F /* Main.storyboard */ = {
+		2CA528211E9941DB009D720F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2CA527EA1E993876009D720F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2CA527EE1E993876009D720F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2CA527EF1E993876009D720F /* Base */,
+				2CA528221E9941DB009D720F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -418,9 +463,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VLLF2Q7K3G;
-				INFOPLIST_FILE = "Five o'clock Somewhere/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Five o'clock Somewhere/Application/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.bytesizedbison.Five-o-clock-Somewhere";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bytesizedbison.five-o-clock-somewhere";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -431,9 +476,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VLLF2Q7K3G;
-				INFOPLIST_FILE = "Five o'clock Somewhere/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Five o'clock Somewhere/Application/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.bytesizedbison.Five-o-clock-Somewhere";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bytesizedbison.five-o-clock-somewhere";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
