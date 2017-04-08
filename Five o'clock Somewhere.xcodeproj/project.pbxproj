@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CA527E61E993876009D720F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA527E51E993876009D720F /* AppDelegate.swift */; };
+		2CA527E81E993876009D720F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA527E71E993876009D720F /* ViewController.swift */; };
+		2CA527EB1E993876009D720F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CA527E91E993876009D720F /* Main.storyboard */; };
+		2CA527ED1E993876009D720F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CA527EC1E993876009D720F /* Assets.xcassets */; };
+		2CA527F01E993876009D720F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CA527EE1E993876009D720F /* LaunchScreen.storyboard */; };
+		2CA527FB1E993876009D720F /* Five_o_clock_SomewhereTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA527FA1E993876009D720F /* Five_o_clock_SomewhereTests.swift */; };
+		2CA528061E993876009D720F /* Five_o_clock_SomewhereUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA528051E993876009D720F /* Five_o_clock_SomewhereUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CA527F71E993876009D720F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CA527DA1E993876009D720F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CA527E11E993876009D720F;
+			remoteInfo = "Five o'clock Somewhere";
+		};
+		2CA528021E993876009D720F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CA527DA1E993876009D720F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CA527E11E993876009D720F;
+			remoteInfo = "Five o'clock Somewhere";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2CA527E21E993876009D720F /* Five o'clock Somewhere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Five o'clock Somewhere.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CA527E51E993876009D720F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2CA527E71E993876009D720F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2CA527EA1E993876009D720F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2CA527EC1E993876009D720F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CA527EF1E993876009D720F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2CA527F11E993876009D720F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CA527F61E993876009D720F /* Five o'clock SomewhereTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Five o'clock SomewhereTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CA527FA1E993876009D720F /* Five_o_clock_SomewhereTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Five_o_clock_SomewhereTests.swift; sourceTree = "<group>"; };
+		2CA527FC1E993876009D720F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CA528011E993876009D720F /* Five o'clock SomewhereUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Five o'clock SomewhereUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CA528051E993876009D720F /* Five_o_clock_SomewhereUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Five_o_clock_SomewhereUITests.swift; sourceTree = "<group>"; };
+		2CA528071E993876009D720F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CA527DF1E993876009D720F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CA527F31E993876009D720F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CA527FE1E993876009D720F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CA527D91E993876009D720F = {
+			isa = PBXGroup;
+			children = (
+				2CA527E41E993876009D720F /* Five o'clock Somewhere */,
+				2CA527F91E993876009D720F /* Five o'clock SomewhereTests */,
+				2CA528041E993876009D720F /* Five o'clock SomewhereUITests */,
+				2CA527E31E993876009D720F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CA527E31E993876009D720F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CA527E21E993876009D720F /* Five o'clock Somewhere.app */,
+				2CA527F61E993876009D720F /* Five o'clock SomewhereTests.xctest */,
+				2CA528011E993876009D720F /* Five o'clock SomewhereUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CA527E41E993876009D720F /* Five o'clock Somewhere */ = {
+			isa = PBXGroup;
+			children = (
+				2CA527E51E993876009D720F /* AppDelegate.swift */,
+				2CA527E71E993876009D720F /* ViewController.swift */,
+				2CA527E91E993876009D720F /* Main.storyboard */,
+				2CA527EC1E993876009D720F /* Assets.xcassets */,
+				2CA527EE1E993876009D720F /* LaunchScreen.storyboard */,
+				2CA527F11E993876009D720F /* Info.plist */,
+			);
+			path = "Five o'clock Somewhere";
+			sourceTree = "<group>";
+		};
+		2CA527F91E993876009D720F /* Five o'clock SomewhereTests */ = {
+			isa = PBXGroup;
+			children = (
+				2CA527FA1E993876009D720F /* Five_o_clock_SomewhereTests.swift */,
+				2CA527FC1E993876009D720F /* Info.plist */,
+			);
+			path = "Five o'clock SomewhereTests";
+			sourceTree = "<group>";
+		};
+		2CA528041E993876009D720F /* Five o'clock SomewhereUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2CA528051E993876009D720F /* Five_o_clock_SomewhereUITests.swift */,
+				2CA528071E993876009D720F /* Info.plist */,
+			);
+			path = "Five o'clock SomewhereUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CA527E11E993876009D720F /* Five o'clock Somewhere */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CA5280A1E993876009D720F /* Build configuration list for PBXNativeTarget "Five o'clock Somewhere" */;
+			buildPhases = (
+				2CA527DE1E993876009D720F /* Sources */,
+				2CA527DF1E993876009D720F /* Frameworks */,
+				2CA527E01E993876009D720F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Five o'clock Somewhere";
+			productName = "Five o'clock Somewhere";
+			productReference = 2CA527E21E993876009D720F /* Five o'clock Somewhere.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2CA527F51E993876009D720F /* Five o'clock SomewhereTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CA5280D1E993876009D720F /* Build configuration list for PBXNativeTarget "Five o'clock SomewhereTests" */;
+			buildPhases = (
+				2CA527F21E993876009D720F /* Sources */,
+				2CA527F31E993876009D720F /* Frameworks */,
+				2CA527F41E993876009D720F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CA527F81E993876009D720F /* PBXTargetDependency */,
+			);
+			name = "Five o'clock SomewhereTests";
+			productName = "Five o'clock SomewhereTests";
+			productReference = 2CA527F61E993876009D720F /* Five o'clock SomewhereTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2CA528001E993876009D720F /* Five o'clock SomewhereUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CA528101E993876009D720F /* Build configuration list for PBXNativeTarget "Five o'clock SomewhereUITests" */;
+			buildPhases = (
+				2CA527FD1E993876009D720F /* Sources */,
+				2CA527FE1E993876009D720F /* Frameworks */,
+				2CA527FF1E993876009D720F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CA528031E993876009D720F /* PBXTargetDependency */,
+			);
+			name = "Five o'clock SomewhereUITests";
+			productName = "Five o'clock SomewhereUITests";
+			productReference = 2CA528011E993876009D720F /* Five o'clock SomewhereUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CA527DA1E993876009D720F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Bytesized Bison";
+				TargetAttributes = {
+					2CA527E11E993876009D720F = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = VLLF2Q7K3G;
+						ProvisioningStyle = Automatic;
+					};
+					2CA527F51E993876009D720F = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = VLLF2Q7K3G;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2CA527E11E993876009D720F;
+					};
+					2CA528001E993876009D720F = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = VLLF2Q7K3G;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2CA527E11E993876009D720F;
+					};
+				};
+			};
+			buildConfigurationList = 2CA527DD1E993876009D720F /* Build configuration list for PBXProject "Five o'clock Somewhere" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CA527D91E993876009D720F;
+			productRefGroup = 2CA527E31E993876009D720F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CA527E11E993876009D720F /* Five o'clock Somewhere */,
+				2CA527F51E993876009D720F /* Five o'clock SomewhereTests */,
+				2CA528001E993876009D720F /* Five o'clock SomewhereUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CA527E01E993876009D720F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CA527F01E993876009D720F /* LaunchScreen.storyboard in Resources */,
+				2CA527ED1E993876009D720F /* Assets.xcassets in Resources */,
+				2CA527EB1E993876009D720F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CA527F41E993876009D720F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CA527FF1E993876009D720F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CA527DE1E993876009D720F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CA527E81E993876009D720F /* ViewController.swift in Sources */,
+				2CA527E61E993876009D720F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CA527F21E993876009D720F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CA527FB1E993876009D720F /* Five_o_clock_SomewhereTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CA527FD1E993876009D720F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CA528061E993876009D720F /* Five_o_clock_SomewhereUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CA527F81E993876009D720F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CA527E11E993876009D720F /* Five o'clock Somewhere */;
+			targetProxy = 2CA527F71E993876009D720F /* PBXContainerItemProxy */;
+		};
+		2CA528031E993876009D720F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CA527E11E993876009D720F /* Five o'clock Somewhere */;
+			targetProxy = 2CA528021E993876009D720F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2CA527E91E993876009D720F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CA527EA1E993876009D720F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2CA527EE1E993876009D720F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CA527EF1E993876009D720F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CA528081E993876009D720F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2CA528091E993876009D720F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CA5280B1E993876009D720F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VLLF2Q7K3G;
+				INFOPLIST_FILE = "Five o'clock Somewhere/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bytesizedbison.Five-o-clock-Somewhere";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2CA5280C1E993876009D720F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VLLF2Q7K3G;
+				INFOPLIST_FILE = "Five o'clock Somewhere/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bytesizedbison.Five-o-clock-Somewhere";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2CA5280E1E993876009D720F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VLLF2Q7K3G;
+				INFOPLIST_FILE = "Five o'clock SomewhereTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bytesizedbison.Five-o-clock-SomewhereTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Five o'clock Somewhere.app/Five o'clock Somewhere";
+			};
+			name = Debug;
+		};
+		2CA5280F1E993876009D720F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VLLF2Q7K3G;
+				INFOPLIST_FILE = "Five o'clock SomewhereTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bytesizedbison.Five-o-clock-SomewhereTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Five o'clock Somewhere.app/Five o'clock Somewhere";
+			};
+			name = Release;
+		};
+		2CA528111E993876009D720F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = VLLF2Q7K3G;
+				INFOPLIST_FILE = "Five o'clock SomewhereUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bytesizedbison.Five-o-clock-SomewhereUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Five o'clock Somewhere";
+			};
+			name = Debug;
+		};
+		2CA528121E993876009D720F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = VLLF2Q7K3G;
+				INFOPLIST_FILE = "Five o'clock SomewhereUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bytesizedbison.Five-o-clock-SomewhereUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Five o'clock Somewhere";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CA527DD1E993876009D720F /* Build configuration list for PBXProject "Five o'clock Somewhere" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CA528081E993876009D720F /* Debug */,
+				2CA528091E993876009D720F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CA5280A1E993876009D720F /* Build configuration list for PBXNativeTarget "Five o'clock Somewhere" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CA5280B1E993876009D720F /* Debug */,
+				2CA5280C1E993876009D720F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2CA5280D1E993876009D720F /* Build configuration list for PBXNativeTarget "Five o'clock SomewhereTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CA5280E1E993876009D720F /* Debug */,
+				2CA5280F1E993876009D720F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2CA528101E993876009D720F /* Build configuration list for PBXNativeTarget "Five o'clock SomewhereUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CA528111E993876009D720F /* Debug */,
+				2CA528121E993876009D720F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CA527DA1E993876009D720F /* Project object */;
+}
